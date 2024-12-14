@@ -6,13 +6,7 @@ import NavBar from './NavBar';
 
 const Main = () => {
   return (
-    <div
-      className="w-full max-w-md mx-auto border h-screen relative"
-      style={{
-        background: 'linear-gradient(to right, #FF6766 100%, #F8954D 100%)',
-      }}
-    >
-      {/* No bell and person icon here on mobile */}
+    <div className="w-full max-w-md mx-auto border h-screen flex flex-col">
       <Heading />
       <div className="rounded-t-3xl px-4 mt-4 py-3 bg-white">
         <p className="text-black text-sm md:text-base">

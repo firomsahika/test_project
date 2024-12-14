@@ -16,7 +16,7 @@ const Heading = () => {
     >
       <div className='flex items-center justify-between'>
         <div className='bg-white px-20 py-5'></div>
-        <div className='flex gap-x-3 text-white'>
+        <div className='hidden md:flex gap-x-3 text-white'>
           <LuBell size={28} className='' />
           <IoPersonOutline size={28} />
         </div>
